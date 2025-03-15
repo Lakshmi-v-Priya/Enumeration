@@ -32,32 +32,29 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
-![image](https://github.com/user-attachments/assets/acb25a8c-71b8-4225-8f0c-4971c0b89804)
-
+![image](https://github.com/user-attachments/assets/c4b58439-7a22-4b4f-a718-ebf5c654e399)
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
-![image](https://github.com/user-attachments/assets/8dd8565a-944b-45fd-ba30-4c9fb23cfe11)
-
-
-
+![image](https://github.com/user-attachments/assets/da84d773-42a5-41ec-9238-76d501bc7380)
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
-![image](https://github.com/user-attachments/assets/45721063-626f-4112-86b3-e93868e86d9e)
-
+![image](https://github.com/user-attachments/assets/1294e154-149c-4148-a624-e66177d2ea9d)
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
-![image](https://github.com/user-attachments/assets/bfd98fbc-3eda-4522-b2be-67eedc8b10d2)
+![image](https://github.com/user-attachments/assets/14c5f733-869f-42d2-bfea-ce5d25e51e34)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
-![image](https://github.com/user-attachments/assets/a0211377-9559-4454-9dce-32608a8ffe43)
+![image](https://github.com/user-attachments/assets/289e73e6-7783-43eb-ad6e-e1afb7719018)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
+![image](https://github.com/user-attachments/assets/f0c4691b-94d4-45f6-bb90-70719a22905b)
 
 cache: This operator allows you to view the cached version of a page. For example, "cache:example.com" would show the cached version of the example.com website.
+![image](https://github.com/user-attachments/assets/1259cb18-474c-4987-b2dd-bedd672649a6)
 
  
-#DNS Enumeration
+# DNS Enumeration
 
 
 ##DNS Recon
@@ -66,12 +63,7 @@ Check all NS records for zone transfers
 Enumerate general DNS records for a given domain (MX, SOA, NS, A, AAAA, SPF , TXT)
 Perform common SRV Record Enumeration
 Top level domain expansion
-## OUTPUT:
-
-
-
-
-
+##OUTPUT:
 
 
 ##dnsenum
@@ -87,26 +79,23 @@ Calculate C class domain network ranges and perform whois queries on them (threa
 Perform reverse lookups on netranges (C class or/and whois netranges) (threaded).
 Write to domain_ips.txt file ip-blocks.
 This program is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
-
+![WhatsApp Image 2025-03-15 at 13 59 49_1ed61693](https://github.com/user-attachments/assets/0d41a878-c953-4c32-9df8-b58de7de4664)
+![WhatsApp Image 2025-03-15 at 14 07 53_bae230ef](https://github.com/user-attachments/assets/c226fcfb-d1b1-4e6f-a742-c12b6ebbd691)
 
 ##smtp-user-enum
 Username guessing tool primarily for use against the default Solaris SMTP service. Can use either EXPN, VRFY or RCPT TO.
-
-
 In metasploit list all the usernames using head /etc/passwd or cat /etc/passwd:
-
 select any username in the first column of the above file and check the same
+![WhatsApp Image 2025-03-15 at 14 08 52_93e7c158](https://github.com/user-attachments/assets/0ae30d9d-3dfd-4c5a-88f5-b320421e0a84)
 
 
-#Telnet for smtp enumeration
+#Telnet for smtp enumeration:
 Telnet allows to connect to remote host based on the port no. For smtp port no is 25
 telnet <host address> 25 to connect
 and issue appropriate commands
-  
- ##Output
-  
-  
+ ##Output:
 
+ 
 ## nmap –script smtp-enum-users.nse <hostname>
 
 The smtp-enum-users.nse script attempts to enumerate the users on a SMTP server by issuing the VRFY, EXPN or RCPT TO commands. The goal of this script is to discover all the user accounts in the remote system.
