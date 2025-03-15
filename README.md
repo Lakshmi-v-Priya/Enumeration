@@ -32,18 +32,25 @@ Google hacking, also known as Google dorking, is a technique that involves using
 
 site: This operator allows you to search for pages that are within a specific website or domain. For example, "site:example.com" would search for pages that are on the example.com domain.
 Following searches for all the sites that is in the domain yahoo.com
+![image](https://github.com/user-attachments/assets/acb25a8c-71b8-4225-8f0c-4971c0b89804)
+
 
 filetype: This operator allows you to search for files of a specific type. For example, "filetype:pdf" would search for all PDF files.
 Following searches for pdf file in the domain yahoo.com
+![image](https://github.com/user-attachments/assets/8dd8565a-944b-45fd-ba30-4c9fb23cfe11)
+
 
 
 
 intext: This operator allows you to search for pages that contain specific text within the body of the page. For example, "intext:password" would search for pages that contain the word "password" within the body of the page.
+![image](https://github.com/user-attachments/assets/45721063-626f-4112-86b3-e93868e86d9e)
 
 
 inurl: This operator allows you to search for pages that contain specific text within the URL. For example, "inurl:admin" would search for pages that contain the word "admin" within the URL.
+![image](https://github.com/user-attachments/assets/bfd98fbc-3eda-4522-b2be-67eedc8b10d2)
 
 intitle: This operator allows you to search for pages that contain specific text within the title tag. For example, "intitle:index of" would search for pages that contain "index of" within the title tag.
+![image](https://github.com/user-attachments/assets/a0211377-9559-4454-9dce-32608a8ffe43)
 
 link: This operator allows you to search for pages that link to a specific URL. For example, "link:example.com" would search for pages that link to the example.com domain.
 
